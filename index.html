@@ -4,10 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <!-- <script src="./js/index-script.js"></script> -->
+
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>HELLO!</h1>
-    <p>WIP. portfolio Pages.</p>
+    <div class="navigation">
+        <div class="banner">
+            <img src="./images/banner-2.png" alt="" class="cover">
+        </div>
+        <div class="navlink">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT ME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <!-- <li><a href="#">CONTACT</a></li> -->
+            </ul>
+        </div>
+    </div>
+
+    <section class="sect">
+        <header>
+            <div class="toggle"></div>
+        </header>
+
+        <div class="pfp">
+            <img src="./images/pfp.jpg" alt="" class="cover">
+        </div>
+        <div class="content">
+            <h1>Hello!</h1>
+            <h2>My Name is<br><span>Ibrahim Seto Aditama</span></h2>
+            <p>I am one of the computer science students at Bina Nusantara University.</p>
+            <a href="#" class="btn">See My Portfolio</a>
+        </div>
+
+        <footer>
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/in/ibrahim-seto-aditama-12515417b/" target="_blank"><img src="./images/icon-linkedin-edited.png" alt=""></a></li>
+                <li><a href="https://twitter.com/Seto_Aditama" target="_blank"><img src="./images/icon-twitter-edited.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100012726155957" target="_blank"><img src="./images/icon-fb.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/seto_aditama/" target="_blank"><img src="./images/icon-ig-edited.png" alt=""></a></li>
+            </ul>
+        </footer>
+
+    </section>
+
+    <script>
+        let menuToggle = document.querySelector('.toggle');
+        let navigation = document.querySelector('.navigation');
+        let sect = document.querySelector('.sect');
+        menuToggle.onclick = function() {
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+            sect.classList.toggle('active');
+        }
+    </script>
+
 </body>
 </html>
