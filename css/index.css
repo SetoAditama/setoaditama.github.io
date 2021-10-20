@@ -274,43 +274,115 @@ p{
     border-radius: 25px;
 }
 
+/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
+
+/* 
+.portfolio .content .title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+} */
+
+
+/* .portfolio .subtitle{
+    display: flex;
+    width: 100%;
+    text-align: center;
+} */
+
+/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
+
 .subtitle{
     width: 100%;
     text-align: center;
 }
 
-.subtitle h2{
+.portfolio .subtitle h3{
+    display: flex;
     position: relative;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
     justify-content: center;
-    letter-spacing: 2px;
-    font-size: 1.3em;
-    margin-top: 30px;
-    margin-bottom: 5px;
 }
 
+.portfolio .subtitle p{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* 
+.portfolio .content{
+    padding: 0 10px;
+    float: left;
+    width: 25%;
+}
 
-/* .subtitle h2::before{
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -10px;
-    width: 50px;
-    height: 2px;
-    background: var(--black);
+.portfolio .content .appBox{
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+
+}
+
+.portfolio .content img{
+    width: 100%;
+    height: auto;
 } */
+
+/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
+
+/* .portfolio .content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px;
+    margin: 20px 0;
+    margin: 40px 0;
+} */
+
+
+/* 
+.portfolio .content .appBox{
+    flex: 25%;
+    padding: 20px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+    padding: 30px;
+    margin: 50px;
+    background: var(--white2);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+/* 
+.portfolio .content .appBox img{
+    width: 35%;
+    height: auto;
+} */
+
+/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
 
 .portfolio .content{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 100px;
-    margin: 30px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 30px;
+    margin: 30px 10px;
 }
 
 
 .portfolio .content .appBox{
     border: 1px solid rgba(0, 0, 0, 0.05);
-    padding: 50px 20px;
+    border-radius: 25px;
+    padding: 30px 10px;
     display: flex;
     background: var(--white2);
     justify-content: center;
@@ -318,13 +390,7 @@ p{
     flex-direction: column;
 }
 
-
-/* .portfolio .content .appBox h2{
-    width: 100%;
-    text-align: center;
-    position: relative;
-    letter-spacing: 2px;
-    font-size: 1.3em;
-    margin-top: 35px;
-    margin-bottom: 20px;
-} */
+.portfolio .content .appBox img{
+    max-width: 100%;
+    height: auto;
+}
