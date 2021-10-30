@@ -171,6 +171,15 @@ h2{
     letter-spacing: 2px;
 }
 
+/*---- New Addition ----*/
+h3{
+    position: relative;
+    font-size: 1.15em;
+    color: var(--black);
+    letter-spacing: 1.5px;
+}
+/*---- New Addition ----*/
+
 p{
     color: #777;
 }
@@ -274,30 +283,9 @@ p{
     border-radius: 25px;
 }
 
-/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
 
-/* 
-.portfolio .content .title{
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-} */
-
-
-/* .portfolio .subtitle{
-    display: flex;
-    width: 100%;
-    text-align: center;
-} */
-
-/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
-
-.subtitle{
+/*>>>>> WIP <<<<<*/
+/* .subtitle{
     width: 100%;
     text-align: center;
 }
@@ -318,58 +306,7 @@ p{
     justify-content: center;
     align-items: center;
 }
-/* 
-.portfolio .content{
-    padding: 0 10px;
-    float: left;
-    width: 25%;
-}
 
-.portfolio .content .appBox{
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 25px;
-
-}
-
-.portfolio .content img{
-    width: 100%;
-    height: auto;
-} */
-
-/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
-
-/* .portfolio .content{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    grid-gap: 20px;
-    margin: 20px 0;
-    margin: 40px 0;
-} */
-
-
-/* 
-.portfolio .content .appBox{
-    flex: 25%;
-    padding: 20px 10px;
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    border-radius: 25px;
-    padding: 30px;
-    margin: 50px;
-    background: var(--white2);
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-} */
-/* 
-.portfolio .content .appBox img{
-    width: 35%;
-    height: auto;
-} */
-
-/*>>>>>>>>>>>>>>>>>  <<<<<<<<<<<<<<<<*/
 
 .portfolio .content{
     display: grid;
@@ -393,4 +330,54 @@ p{
 .portfolio .content .appBox img{
     max-width: 100%;
     height: auto;
+} */
+/*>>>>> WIP <<<<<*/
+
+.myportfolio .content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.myportfolio .content .textBox{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.appBox-img-desc{
+    border: 1px solid #333;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+/* 
+.appBox-img-desc:hover{
+    border: 1px solid #777;
+} */
+
+.appBox-img-desc img{
+    max-width: 100%;
+    height: auto;
+}
+
+.appBox-img-desc img:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.appBox{
+    padding: 0 6px;
+    float: left;
+    width: 24.999%;
 }
